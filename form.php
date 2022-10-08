@@ -11,26 +11,26 @@
 <form  action="thank.php"  method="post">
     <div>
       <label  for="user_name">Nom :</label>
-      <input  type="text"  id="user_name"  name="user_name">
+      <input  type="text"  id="user_name"  name="user_name" required>
     </div>
     <div>
       <label  for="prenom"> Prenom:</label>
-      <input  type="text"  id="prenom"  name="prenom">
+      <input  type="text"  id="prenom"  name="prenom" required>
     </div>
     <div>
       <label  for="couriel">E-mail :</label>
-        <input  type="email"  id="couriel"  name="couriel">
+        <input  type="email"  id="couriel"  name="couriel" required>
     </div>
     <label  for="telephone">Télephone :</label>
-        <input  type="tel"  id="telephone"  name="telephone">
+        <input  type="tel"  id="telephone"  name="telephone" required>
     </div>
     <label  for="viande">Sujet :</label><br />
-        <select name= "viande" id= "viande">
+        <select name= "viande" id= "viande" required>
           <option value ="beef"> Beef</option>
           <option value ="Rosbeef"> Rosbeef</option>
     </div>
       <label  for="message">Message :</label>
-      <textarea  id="messages"  name="message"></textarea>
+      <textarea  id="messages"  name="message" required ></textarea>
     
     <div  class="button">
       <button  type="submit">Envoyer votre message</button>
